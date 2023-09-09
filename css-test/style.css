@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+h1 {
+    color: #00277e
+}
+
+.item{
+    margin: 10px;
+}
+
+h2::first-line {
+    font-size: 70px;
+}
+
+h2 {
+    position: absolute;
+    padding-top: 270px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+.bulebox {
+    width: 1200px;
+    height: 200px;
+    background-color: #04247c;
+    position: absolute;
+    bottom: 5%;
+    margin: 0px;
+}
+
+img {
+    width: 650px;
+    height: 450px;
+    position: absolute;
+    bottom: 150px;
+    right: 0%;
+
+}
