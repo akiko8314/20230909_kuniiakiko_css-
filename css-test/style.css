@@ -4,6 +4,11 @@ header {
     justify-content: space-between;
 }
 
+main {
+    width: 90%;
+    height: auto;
+}
+
 ul {
     display: flex;
     justify-content: flex-end;
@@ -17,32 +22,38 @@ h1 {
 .item{
     margin: 10px;
 }
-
-h2::first-line {
-    font-size: 70px;
+a {
+    text-decoration: none;
 }
 
 h2 {
-    position: absolute;
-    padding-top: 270px;
-    margin-bottom: 0px;
     font-weight: 100;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    padding-bottom: 0%;
+    position: fixed;
+    bottom: 35%;
+    margin-bottom: 1%;
+}
+
+h2::first-line{
+    font-size: 45px;
 }
 
 .bulebox {
-    width: 1200px;
-    height: 200px;
+    width: 75%;
+    height: 27%;
     background-color: #04247c;
     position: absolute;
     bottom: 5%;
-    margin: 0px;
+    margin: 0;
 }
 
 img {
-    width: 650px;
-    height: 450px;
+    width: 50%;
+    height: 40%;
     position: absolute;
-    bottom: 150px;
+    bottom: 25%;
     right: 0%;
-
 }
